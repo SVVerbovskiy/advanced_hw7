@@ -1,6 +1,6 @@
 class Stack(list):
 
-    def isEmpty(self):
+    def is_empty(self):
         return len(self) == 0
 
     def push(self, _item):
